@@ -1,0 +1,29 @@
+{
+  "name": "element-story",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://elementstory-47b09.firebaseapp.com/",
+  "dependencies": {
+    "firebase": "^4.1.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-toolbox": "^2",
+    "react-toolbox-themr": "^1.0.2",
+    "reactfire": "^1.0.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-toolbox-themr && react-scripts build",
+    "deploy": "firebase deploy",
+    "toolbox": "react-toolbox-themr",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "reactToolbox": {
+    "include": ["BUTTON"],
+    "output": "node_modules/assets/react-toolbox"
+  }
+}

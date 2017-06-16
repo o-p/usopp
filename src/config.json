@@ -1,0 +1,10 @@
+{
+  "firebase": {
+    "apiKey": "AIzaSyAEvj_SZ9t_JtVaxVul8f9q07cE20iWAA4",
+    "authDomain": "elementstory-47b09.firebaseapp.com",
+    "databaseURL": "https://elementstory-47b09.firebaseio.com",
+    "projectId": "elementstory-47b09",
+    "storageBucket": "elementstory-47b09.appspot.com",
+    "messagingSenderId": "963712442988"
+  }
+}
